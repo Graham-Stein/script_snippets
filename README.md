@@ -8,7 +8,7 @@ eg:
 `.aws/config`
 
 ```
-[glob]
+[yourprofile]
 region = eu-west-2
 output = json
 ```
@@ -16,7 +16,7 @@ output = json
 `.aws/credentials`
 
 ```
-[glob]
+[yourprofile]
 aws_access_key_id = <your access key>
 aws_secret_access_key = <your secret access key>
 ```
