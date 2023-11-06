@@ -1,0 +1,9 @@
+services:
+  local-dev-postgres:
+    image: postgis/postgis:15-3.4
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: example
+      POSTGRES_DB: localdev_postgres
+    ports:
+      - "5432:5432"
